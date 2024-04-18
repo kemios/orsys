@@ -1,0 +1,30 @@
+variable  "pm_api_url" {
+    default =  "https://192.168.100.240:8006/api2/json"
+}
+variable  "pm_api_token_id" {
+    default =  "terraform@pve!terraform"
+}
+variable  "pm_api_token_secret" {
+    default =  "1f021f7f-7d71-4be4-8ffe-4be2606cfe71"
+}
+variable  "target_node" {
+    default =  "impfondo"
+}
+variable "clone" {
+    default =  "debian12-temp"
+}
+variable  "ssh_key" {
+    default =  "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDHi91QrRgex8DwLjkJ0vN7okKROrDir4xWsdv5I2P0qj7V/J1apZgw9YPdiCRykcxef1UylWkqURybnP4/TsUubPHHGf12BZdFB5qqAdAP+fWFHCuZgNcv9UR5O2Ld21ytQkMdKf0tUke9iDUwdg8xpBIO3Q//L/cno6n93fmthPWXwTETh/yjYXiekBn8o6kbYHCtco3CI9r2L4LHqljCP9bOULKgH6RmveeRZd2UISN8hdc2wJzvmBoqEq6BkhxqOcpoaAMwC0uEPjkS+Tj/xQDjVnpGCvGV/xYEUbA3JySECbJBuNT5pLVTnur3TSu+wCh/RCJWLMcCjsUybqXFHZ51Ta3v3P15s3Ws0Cwy/NG8OaxChhLGSoigDivyhk+zQndmHc34g3dyF+Zg3w6NwNkJtHaWwmuVWo9CqmjfnM/eM++1Y/c6LEAXrjfxKMCas1t/W2OnUkg69HCpX1N6l7Dw0EkVJC0P7xySlPSLlU+zTyXxv7q5bmyqJWi51yc= daleche@freezer"
+}
+
+variable "gateway" {
+  default = "10.16.2.254"
+}
+
+variable "dns_list" {
+  default = "10.9.15.1"
+}
+
+variable "dns_search" {
+  default = "proxmox.lan"
+}
